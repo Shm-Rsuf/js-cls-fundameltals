@@ -1,9 +1,7 @@
-/* console.log("hello bangladesh");
-
 //test lear year
 // year % 400===0 || year % 4 === 0 && year % 100 !== 0
 
-let year = 2020;
+/* let year = 2020;
 
 if (year % 400 === 0 || (year % 4 === 0 && year % 100 !== 0)) {
   console.log(`The year ${year} is leap year.`);
@@ -110,3 +108,22 @@ let indexOfYear = years.findIndex((year) => year > 1996);
 
 console.log(indexOfYear);
 console.log(lastBenchers);
+console.log("-----------------------");
+
+//objects
+const student = {
+  fName: "Sabiha",
+  lName: "Tasnim",
+  age: 11,
+  job: "student",
+  friends: ["juthe", "usuf", "ruponty"],
+};
+
+console.log(student.friends.at(-1));
+console.log(
+  `${student.fName + " " + student.lName} priti is a ${
+    student.job
+  }. Now she is ${student.age} years old.${student.friends.at(
+    -1
+  )} is her elder sister.`
+);

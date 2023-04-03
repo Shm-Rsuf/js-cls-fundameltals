@@ -52,3 +52,6 @@ const lName = "usuf";
 //backtick
 /* const bio = `I am ${fName} ${lName}.I am a web developer.`;
 console.log(bio); */
+
+const gender = "male";
+gender ? console.log("boy") : console.log("girl");

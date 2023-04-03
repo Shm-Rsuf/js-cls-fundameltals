@@ -24,7 +24,7 @@ gradePointAverage(30); */
 
 //switch case
 
-const isToday = "Saturday";
+/* const isToday = "Saturday";
 
 switch (isToday) {
   case "Sunday":
@@ -40,4 +40,15 @@ switch (isToday) {
   default:
     console.log("Today is holyday");
     break;
-}
+} */
+
+//template string
+const fName = "shm";
+const lName = "usuf";
+
+// const fullName = fName + " " + lName;
+// console.log(fullName);
+
+//backtick
+/* const bio = `I am ${fName} ${lName}.I am a web developer.`;
+console.log(bio); */

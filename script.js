@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 /*
     comments for developer
@@ -125,7 +125,6 @@ finding index by elements names
 // console.log(lastBenchers.includes('ruponty'))
 // console.log(lastBenchers.includes('mizan'))
 
-
 // if (lastBenchers.includes('sazzad')) {
 //   console.log('He is our captain')
 // } else {
@@ -206,7 +205,7 @@ lambda function or lambda calculus function declarations
 //   }
 // }
 // console.log(person.introduceSelf());
-const sabrinaArray = ['Sabrina', 'Ratul', 'iMac', 'MacOS', 'iPhone 16', 'Programmer', 25, ['Tina', 'Mina', 'Rina', 'Parina'], true, 'Dancer'];
+/* const sabrinaArray = ['Sabrina', 'Ratul', 'iMac', 'MacOS', 'iPhone 16', 'Programmer', 25, ['Tina', 'Mina', 'Rina', 'Parina'], true, 'Dancer'];
 
 let len = sabrinaArray.length;
 for (let i = 0; i < len; i++) {
@@ -221,10 +220,10 @@ let lengthOfNumbers = numbers.length;
 
 for (let i = 0; i < lengthOfNumbers; i++) {
   sum += numbers[i];
-}
+} */
 
 // console.log(sum);
-
+/* 
 let row = 5;
 let star = '';
 
@@ -234,4 +233,4 @@ for (let i = 1; i <= row; i++) {
   }
   star += '\n'
 }
-console.log(star)
+console.log(star) */

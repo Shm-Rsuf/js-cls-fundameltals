@@ -243,7 +243,7 @@ console.log(
   `I'm ${name}. I'm ${new Date().getFullYear() - 1996} and work at ${work}`
 ); */
 
-const person = {
+/* const person = {
   name: "John Doe",
   age: 30,
   occupation: "Engineer",
@@ -256,11 +256,21 @@ const person = {
   greet: function () {
     console.log(`Hello, my name is ${this.name}!`);
   },
-};
-const {
+}; */
+/* const {
   name: personName,
   hobbies: [reading, drawing],
   address: { city },
 } = person;
 
-console.log(drawing, city);
+console.log(drawing, city); */
+
+/* for (const property in person) {
+  console.log(`${property}: ${person[property]}`);
+} */
+
+const fruits = ["apple", "banana", "orange", "mango"];
+
+for (const element of fruits) {
+  console.log(element);
+}

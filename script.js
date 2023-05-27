@@ -234,3 +234,33 @@ for (let i = 1; i <= row; i++) {
   star += '\n'
 }
 console.log(star) */
+
+/* var name = "shm usuf",
+  age = 26,
+  work = "Vivasoft";
+
+console.log(
+  `I'm ${name}. I'm ${new Date().getFullYear() - 1996} and work at ${work}`
+); */
+
+const person = {
+  name: "John Doe",
+  age: 30,
+  occupation: "Engineer",
+  hobbies: ["reading", "painting", "playing guitar"],
+  address: {
+    street: "123 Main St",
+    city: "Exampleville",
+    country: "Exampleland",
+  },
+  greet: function () {
+    console.log(`Hello, my name is ${this.name}!`);
+  },
+};
+const {
+  name: personName,
+  hobbies: [reading, drawing],
+  address: { city },
+} = person;
+
+console.log(drawing, city);

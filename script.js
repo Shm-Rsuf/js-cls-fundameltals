@@ -269,11 +269,11 @@ console.log(drawing, city); */
   console.log(`${property}: ${person[property]}`);
 } */
 
-const person = {
-  name: "John Doe",
-  age: 30,
-  occupation: "Engineer",
-};
+// const person = {
+//   name: "John Doe",
+//   age: 30,
+//   occupation: "Engineer",
+// };
 
 // for (const [keys, value] of Object.entries(person)) {
 //   // console.log(`Properties: ${keys} and Values: ${value}`);
@@ -284,14 +284,13 @@ const person = {
 //   console.log(property[i]);
 // }
 
-const student = {
-  name: "arif",
-  age: 25,
-  home: "bogura",
-};
+// const student = {
+//   name: "arif",
+//   age: 25,
+//   home: "bogura",
+//   greet: function (name) {
+//     return `Hello ${name}`;
+//   },
+// };
 
-const propertyArr = Object.keys(student);
-
-for (const value of propertyArr) {
-  console.log(student[value]);
-}
+// console.log(student.greet("jony"));
